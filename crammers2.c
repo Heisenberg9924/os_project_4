@@ -90,11 +90,11 @@ int main()
 
 	FILE *ftime=fopen("time_case2.txt","w");
 
-	int arr[5]={200,400,600,800,1000};
+	int arr[5]={2,4,6,8,10};
 
 	num_threads = sysconf(_SC_NPROCESSORS_ONLN);
 
-	for(int m=0;m<4;m++)
+	for(int m=0;m<5;m++)
 	{
 		struct timespec start,end;
 
