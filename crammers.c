@@ -80,9 +80,9 @@ int main()
 {
 	srand(time(NULL));
 	FILE *ftime=fopen("time_case1.txt","w");
-	int arr[5]={200,400,600,800,1000};
+	int arr[5]={2,4,6,8,10};
 	
-	for(int m=0;m<4;m++){
+	for(int m=0;m<5;m++){
 	struct timespec start,end;
 	clock_gettime(CLOCK_MONOTONIC,&start);
 	n=arr[m];
